@@ -504,9 +504,23 @@ img {
     width: 450px;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px ) {
+
+ 
+  .home__data h1{
+    font-size: 40px;
+  }
 
 
+ } 
+ @media screen and (min-width:840px ) {
+
+ 
+  .home__data h1{
+    font-size: var(--big-font-size)
+  }
 
 
-}
+ } 
+ 
+ 
