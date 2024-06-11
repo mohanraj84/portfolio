@@ -324,7 +324,7 @@ img {
   border-radius: 0.5rem;
 }
 
-/* ===== WORK =====*/
+/* ===== project =====*/
 .work__container {
   row-gap: 2rem;
 }
@@ -338,6 +338,9 @@ img {
 }
 .work__img img:hover {
   transform: scale(1.1);
+}
+.work__img h2{
+  margin-left: 3px;
 }
 
 /* ===== CONTACT =====*/
@@ -500,4 +503,10 @@ img {
   .home__img {
     width: 450px;
   }
+}
+@media screen and (max-width:768px) {
+
+
+
+
 }
